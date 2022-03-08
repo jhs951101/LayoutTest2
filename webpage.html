@@ -3,59 +3,24 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+		<link href="style.css" type="text/css" rel="stylesheet">
 		<title>Layout Test</title>
-		<style type="text/css">
-			html, body {
-				margin: 0;
-				width: 100%;
-				height: 100%;
-			}
-
-			header {
-				height: 100px; 
-				background-color: gray;
-			}
-
-			.container {
-				position: relative; 
-				width: 100%; 
-				height: 400px;
-			}
-
-			.nav {
-				display: inline-block; 
-				width: 30%; 
-				height: 100%; 
-				background-color: red;
-			}
-
-			.content {
-				display: inline-block; 
-				height: 80%; 
-				position: absolute; 
-				left: 30%; 
-				right: 0; 
-				overflow: hidden;
-				background-color: orange;
-			}
-
-			footer {
-				height: 50px; 
-				background-color: black;
-			}
-		</style>
 	</head>
 	<body>
 		<div class="wrapper">
 			<header>
+				One
 			</header>
 			<div class="container">
 				<div class="nav">
+					Two
 				</div>
 				<div class="content">
+					Three
 				</div>
 			</div>
 			<footer>
+				The Others
 			</footer>
 		</div>
 	</body>
